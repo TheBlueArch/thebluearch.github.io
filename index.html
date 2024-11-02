@@ -10,7 +10,18 @@
 <body>
     <header class="header">
         <a href="#" class="logo">Ashmit</a>
-        <i class="fa-solid fa-bars" class="menu-icon"></i>
+        <input type="checkbox" id="menu-btn">
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#services">Services</a>
@@ -178,6 +189,5 @@
           typeSpeed: 70,
         });
     </script>
-    <script src="script.js"></script>
 </body>
 </html>
